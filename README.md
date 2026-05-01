@@ -46,3 +46,33 @@ The analysis is based on the sleep_mobile_stress_dataset_15000.csv, which includ
 **Target Variables**:
 
 - Sleep Quality Score and Stress Level Score
+
+## Conclusion
+
+- This Project confirms a statistically significant and high-magnitude relationship between smartphone usage habits and mental well-being.
+
+The analysis of 15,000 individuals demonstrates a significant correlation between daily digital habits and personal well-being. By utilizing a Random Forest regression model, the study successfully captured the non-linear "threshold effects" where moderate screen time may be manageable, but excessive usage (e.g., beyond the 8-hour mark) exponentially increases stress and degrades sleep quality.
+
+- Generally this project concludes that effective health and stress management now require strict digital hygiene. While diet and exercise remain important, managing our interaction with mobile devices is the most critical step toward improving sleep quality and reducing mental fatigue in a connected world.
+
+## Key Findings
+
+- Daily Screen Time is the most important feature in the model, showing a direct linear-to-exponential impact on mental well being.
+
+- The Inverse Correlation: My analysis confirms a clear relationshipas screen time increases, there is a consistent decrease in sleep quality and a sharp increase in stress levels.
+  
+- Dominance of Digital Habits: I found that Daily Screen Time had a much higher feature importance than traditional factors like Caffeine Intake. This indicates that digital connectivity is now a primary driver of mental well being.
+
+
+## Limitation
+
+**Fixed Range**: Random Forest cannot predict stress or sleep scores outside the dataset's specific limits.
+
+**No Causality**: High screen time correlates with stress but doesn't prove it is the cause.
+
+**Imbalanced Features**: Rare habits (like zero caffeine) provide less data for the model to learn.
+
+**Demographic Gap**: Findings from these 15,000 subjects may not apply to children or the elderly.
+
+**Sampling Bias**: The 15,000 individuals may not perfectly represent the global population, leading to a Generalization Error
+
